@@ -5,9 +5,8 @@ import org.graphstream.graph.implementations.SingleGraph;
 import java.util.ArrayList;
 /**
  * cette porjet a ete realiser par 
- * @author ALOUANI Abdelaziz , YAGHMORACEN Belmir : ISIL A groupe 1
+ * @author ALOUANI Abdelaziz : ISIL A groupe 1
  *remarque : j'utilise une package extern s'appel : GraphStream 
- *pour dessiner le reseau des villes et je met cette package avec les .java de projet
  */
 public class Application {
 	private Graph initGraph() {
@@ -53,8 +52,6 @@ public class Application {
 		reseau = creerNodeVille(reseau, listeville);
 		reseau = AddEdgeBetweenVille(reseau, listeville);
 		reseau.display();
-			Arrays.fill(char[]("dgdgf"), 'r');
-			
 	}
 
 	/**
@@ -117,7 +114,6 @@ public class Application {
 	}
 
 	public static void main(String[] args) {
-		System.out.println();
 	}
 
 }
